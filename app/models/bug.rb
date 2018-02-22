@@ -5,4 +5,6 @@ class Bug < ApplicationRecord
     enum status: [:open, :closed, :monitor]
     enum issue_type: [:issue, :enhancement, :feature]
     enum priority: [:low, :medium, :high]
+
+    belongs_to :user
 end
