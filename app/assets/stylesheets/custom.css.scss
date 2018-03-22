@@ -1,0 +1,23 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.jumbotron {
+  background-image: asset-url('maxresdefault.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}

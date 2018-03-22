@@ -11,15 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :bug_title %>
+  <div class="form-group">
+    <%= form.label :title , "Title"%>
+    <%= form.text_field :title, id: :bug_title, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description, id: :bug_description %>
+  <div class="form-group">
+    <%= form.label :description , "Description"%>
+    <%= form.text_field :description, id: :bug_description, class: "form-control" %>
   </div>
+
+
 
   <div class="field">
     <%= form.label :issue_type %>
